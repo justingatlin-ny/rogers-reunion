@@ -89,6 +89,15 @@ article > div {
     justify-content: center;
 }
 
+.forms form {
+    border: 2px solid #ffffff;
+}
+
+.forms form:hover {
+    border: 2px solid #dcb943;
+    cursor: pointer;
+}
+
 form {
     position: relative;
 }
@@ -99,10 +108,7 @@ form img {
 
 form input[type="image"] {
     max-width: 100%;
-}
-
-form:hover {
-    
+    display: block;
 }
 
 .arrow {
