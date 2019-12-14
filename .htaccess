@@ -1,4 +1,3 @@
-<Directorymatch "^/.*/\.git/">
-Order deny,allow
-Deny from all
-</Directorymatch>
+<Directory /var/www/public_html>
+      Options -Indexes
+</Directory>
